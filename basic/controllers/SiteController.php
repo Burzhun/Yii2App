@@ -61,7 +61,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        return $this->redirect(['users/index']);
+        //return $this->render('index');
     }
 
     /**
